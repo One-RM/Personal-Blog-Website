@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.back-btn ,
+.social-link{
+  display: inline-block;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+  color: #555;
+}
+
+.social-link{
+  padding: 20px 10px 0;
+  margin: auto;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.pd{
+  padding: 50px;
+}
+
+.pt{
+  padding-bottom:20px;
+}
+
+/* =========================
+        HEADER SECTION
+============================*/
+.artiale-header {
+  padding: 60px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+/* =========================
+        MAIN SIDE
+============================*/
+.artical-row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 50px;
+}
+
+.main-side{
+  flex: 70%;
+}
+
+.post-img{
+  border-bottom: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+
+.post-img figcaption {
+    color: #555;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.post-img img{
+  width: 100%;
+  padding: 20px 0 20px;
+}
+
+.post-date{
+  padding-top: 10px;
+  color: #555;
+  font-size: 15px;
+}
+
+.post-content{
+  font-size: 18px;
+  line-height: 1.5;
+  padding-top: 15px;
+}
+
+blockquote{
+  padding: 15px
+}
+
+.quote{
+  border-left: 3px solid #555;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* .captino-img{
+  padding-bottom: 10px;
+  color: #555;
+  font-size: 14px;
+} */
+
+/* =========================
+        SIDEBARE
+============================*/
+.sidebar{
+  flex: 30%;
+}
+
+.about-heder{
+  text-transform: capitalize;
+}
+.side-img{
+  width: 100%;
+}
+
+.about-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 70px;
+}
+
+/* =========================
+        MAIN SIDE
+============================*/
+
+.footer{
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #555;
+  background-color: #0f1623;
+}
+
+/* =========================
+        MEDIA
+============================*/
+
+@media screen and (max-width: 700px) {
+  .artical-row{
+    flex-direction: column;
+    margin: 0 ;
+  }
+}
